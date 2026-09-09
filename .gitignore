@@ -1,0 +1,29 @@
+# Env
+.venv/
+.env
+__pycache__/
+*.pyc
+
+# Data (large / generated — never commit raw datasets to git)
+data/raw/*
+data/synthetic/*
+data/processed/*
+!data/raw/.gitkeep
+!data/synthetic/.gitkeep
+!data/processed/.gitkeep
+
+models/*
+!models/.gitkeep
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# W&B
+wandb/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

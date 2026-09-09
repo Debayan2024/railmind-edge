@@ -1,0 +1,7 @@
+python-dotenv
+google-genai
+simpy
+numpy
+pandas
+matplotlib
+plotly
